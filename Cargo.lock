@@ -167,36 +167,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "config"
-version = "0.14.0"
-dependencies = [
- "async-trait",
- "chrono",
- "convert_case",
- "float-cmp",
- "futures",
- "glob",
- "indexmap 2.2.2",
- "json5",
- "lazy_static",
- "log",
- "nom",
- "notify",
- "pathdiff",
- "reqwest",
- "ron",
- "rust-ini",
- "serde",
- "serde_derive",
- "serde_json",
- "temp-env",
- "tokio",
- "toml",
- "warp",
- "yaml-rust2",
-]
-
-[[package]]
 name = "const-random"
 version = "0.1.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -973,6 +943,36 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9cf5f9dd3933bd50a9e1f149ec995f39ae2c496d31fd772c1fd45ebc27e902b0"
 dependencies = [
  "memchr",
+]
+
+[[package]]
+name = "okcodes-config"
+version = "0.14.0"
+dependencies = [
+ "async-trait",
+ "chrono",
+ "convert_case",
+ "float-cmp",
+ "futures",
+ "glob",
+ "indexmap 2.2.2",
+ "json5",
+ "lazy_static",
+ "log",
+ "nom",
+ "notify",
+ "pathdiff",
+ "reqwest",
+ "ron",
+ "rust-ini",
+ "serde",
+ "serde_derive",
+ "serde_json",
+ "temp-env",
+ "tokio",
+ "toml",
+ "warp",
+ "yaml-rust2",
 ]
 
 [[package]]

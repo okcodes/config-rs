@@ -1,5 +1,5 @@
 [package]
-name = "config"
+name = "okcodes-config"
 version = "0.14.0"
 description = "Layered configuration system for Rust applications."
 homepage = "https://github.com/mehcode/config-rs"
