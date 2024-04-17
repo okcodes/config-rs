@@ -1,6 +1,6 @@
 [package]
 name = "okcodes-config"
-version = "0.14.1-alpha.0"
+version = "0.14.1"
 description = "Layered configuration system for Rust applications."
 homepage = "https://github.com/mehcode/config-rs"
 repository = "https://github.com/mehcode/config-rs"
