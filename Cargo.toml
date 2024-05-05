@@ -1,6 +1,6 @@
 [package]
 name = "okcodes-config"
-version = "0.14.2"
+version = "0.14.3"
 description = "Layered configuration system for Rust applications."
 homepage = "https://github.com/okcodes/config-rs"
 repository = "https://github.com/okcodes/config-rs"
@@ -35,7 +35,7 @@ serde_json = { version = "1.0", optional = true }
 yaml-rust2 = { version = "0.8", optional = true }
 rust-ini = { version = "0.21.0", optional = true }
 ron = { version = "0.8", optional = true }
-json5_rs = { version = "0.4", optional = true, package = "json5" }
+json5_rs = { version = "0.4.1", optional = true, package = "json5" }
 indexmap = { version = "2.2", features = ["serde"], optional = true }
 convert_case = { version = "0.6", optional = true }
 pathdiff = "0.2"
